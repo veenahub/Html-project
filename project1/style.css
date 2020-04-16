@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+  }
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .workExperience {
+    display: block !important;
+}
+article#workExperience1,article#workExperience2{
+    width: 100% !important
+}
+.education {
+    display: block !important;
+}
+
+article#education1, article#education2{
+    display: 100% !important;
+}
+p.designation{
+    display: block !important;
+    margin-left: 5px !important; 
+    padding-left: 10px !important; 
+}
+}
+body{
+    margin-left: 10px;
+}
+
+img {
+    float: left;
+}
+
+#name{
+    margin-left: 50px;
+    padding-left: 80px;
+
+}
+
+.role{
+    margin-left: 80px;
+    padding-left: 50px;
+}
+.bg_color{
+    background-color: grey;
+    width:250px
+}
+.goals {
+    clear: left;
+    margin-top: 30px;
+    padding-left:20px;
+    text-align: justify;
+}
+.workExperience {
+    display: inline-flex;
+    padding-left: 30px;
+    width: 100%;
+}
+
+article#workExperience1,article#workExperience2{
+    padding-left: 10px;
+    text-align: justify;
+    display: block;
+    width: 50%;
+}
+
+
+.education {
+    display: inline-flex;
+    width: 100%;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h5 {
+    margin-top: 10px;
+}
+h2{
+     padding-left:20px;
+}
+
+article#education1, article#education2{
+    padding-left: 20px;
+    text-align: justify;
+    display: block;
+    width: 50%;
+}
